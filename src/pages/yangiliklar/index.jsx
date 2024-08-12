@@ -1,5 +1,5 @@
 export default function Yangiliklar() {
-  return <section id="home">
-    
+  return <section id="yangiliklar">
+      
   </section>;
 }

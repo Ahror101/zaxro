@@ -8,10 +8,10 @@ export default function Navbar() {
       </a>
       <div className="links">
         <a href="#yangiliklar">Yangiliklar</a>
-        <a href="#yangiliklar">Yangiliklar</a>
-        <a href="#yangiliklar">Yangiliklar</a>
+        <a href="#mahsulotlar">Mahsulotlar</a>
+        <a href="#biz-haqimizda">Biz haqimida</a>
       </div>
-      <button>000000000</button>
+      <button>+998883390355</button>
     </nav>
   );
 }

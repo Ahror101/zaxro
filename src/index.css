@@ -8,6 +8,12 @@
   font-optical-sizing: auto;
 }
 
-body {
-  background-color: #D4AC2B;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  background-color: #C6CD78;
+}
+
+
