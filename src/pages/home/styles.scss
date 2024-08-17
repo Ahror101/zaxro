@@ -3,46 +3,47 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+
   .texts {
     width: 50%;
     padding: 50px;
     margin-top: 200px;
     font-size: 35px;
   }
+
   .yozuv {
     background-color: black;
     color: white;
     padding: 5px 5px;
     border-radius: 10px;
   }
+
   .text1 {
     font-size: 20px;
     padding-top: 30px;
   }
-  .card {
-    position: absolute;
-    left: 65%;
-    top: 300px;
-    width: 500px;
-    height: 400px;
-    border-radius: 20px;
-    background-color: #EBEF95;
-    border: none;
-  }
+
   .foto {
     position: absolute;
-    left: 150px;
+    left: -510px;
+    top: -70px;
   }
-  .card h3 {
-    padding-top: 48%;
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-  }
-  .card p {
-    color: white;
-    font-size: 19px;
-    text-align: center;
-    padding-top: 10px;
+}
+@media screen and (max-width: 480px) {
+  .home {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    .texts {
+      width: 50%;
+      margin-top: 50px;
+      padding: 20px;
+    }
+    .foto {
+      position: absolute;
+      left: -180px;
+      padding-top: 100px;
+      width: 360px;
+    }
   }
 }

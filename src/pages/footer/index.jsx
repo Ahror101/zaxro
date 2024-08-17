@@ -1,66 +1,46 @@
-import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { CiFacebook } from "react-icons/ci";
-import { CiTwitter } from "react-icons/ci";
-import "./styles.scss";
+import React from 'react';
+import { CiFacebook, CiTwitter } from 'react-icons/ci';
+import { FaInstagram } from 'react-icons/fa';
+import './styles.scss';
+
 const Footer = () => {
   return (
-    <footer className="site-footer">
-      <div data-aos="zoom-in-down" id="biz-haqimizda" className="container">
-        <div className="row">
-          <div>
-            <h6>About</h6>
-            <p>Yaqinda ko'rilgan</p>
-            <p>Eng ko'p sotilganlar</p>
-            <p>Yangi kelganlar</p>
-            <p>Bu hafta mashhur</p>
+    <footer className="footer">
+      <div id='biz-haqimizda' className="container">
+        <div className="footer-content">
+          <div className="footer-section about">
+            <h2 className="logo">MyWebsite</h2>
+            <p>
+              Welcome to MyWebsite, where we offer amazing content and services. Stay connected with us through our social media channels and get in touch for any inquiries.
+            </p>
+            <div className="footer-icons">
+              <a href="https://facebook.com/" aria-label="Facebook" className="icon facebook">
+                <CiFacebook />
+              </a>
+              <a href="https://twitter.com/" aria-label="Twitter" className="icon twitter">
+                <CiTwitter />
+              </a>
+              <a href="https://www.instagram.com/" aria-label="Instagram" className="icon instagram">
+                <FaInstagram />
+              </a>
+            </div>
           </div>
-
-          <div>
-            <h6>Kategoriyalar</h6>
-            <p>Mebel</p>
-            <p>Uy jihozlari</p>
-            <p>O‘simlik idishlari</p>
-            <p>Stullar</p>
-            <p>Idish-tovoqlar</p>
-          </div>
-
-          <div>
-            <h6>Bizning kompaniya</h6>
-            <p>Biz haqimizda</p>
-            <p>Bo‘sh ish o‘rinlari</p>
-            <p>Biz bilan bog‘laning</p>
-            <p>Maxfiylik</p>
-            <p>Qaytarish siyosati</p>
-          </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="row hurshid">
-          <div className="col-md-4 col-sm-6 col-xs-12">
-            <ul  className="social-icons">
-              <li>
-                <a className="facebook" href="https://facebook.com/">
-                  <i className="facebook" style={{ fontSize: "24px" }}>
-                    <CiFacebook />
-                  </i>
-                </a>
-              </li>
-              <li>
-                <a className="twitter" href="https://twitter.com/">
-                  <i className="fa fa-twitter" style={{ fontSize: "24px" }}>
-                    <CiTwitter />
-                  </i>
-                </a>
-              </li>
-              <li>
-                <a className="dribbble" href="https://www.instagram.com/">
-                  <i className="fa fa-dribbble" style={{ fontSize: "24px" }}>
-                    <FaInstagram />
-                  </i>
-                </a>
-              </li>
+          <div className="footer-section links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/yangiliklar">Yangiliklar</a></li>
+              <li><a href="/mahsulotlar">Mahzulotlar</a></li>
+              <li><a href="/biz_haqimizda">Biz haqimizda</a></li>
             </ul>
+          </div>
+          <div className="footer-section contact-form">
+            <h4>Contact Us</h4>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
           </div>
         </div>
       </div>

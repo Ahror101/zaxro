@@ -14,10 +14,8 @@ export default function Home() {
           nam asperiores molestias tenetur, esse amet totam recusandae est sed.
         </p>  
       </div>
-      <div data-aos="fade-left" className="card">
-        <img className="foto" src={require("../../assets/logo.png")} alt="" />
-        <h3>Yeguliklar Sabzavotlar</h3>
-        <p>Maecenas est oson, convallis esa osonroq, massa esa qattiqroq.</p>
+      <div data-aos="fade-left">
+        <img className="foto" src={require("../../assets/Image (1).png")} alt="" />
       </div>
     </section>
   );

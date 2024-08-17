@@ -16,8 +16,9 @@ function App() {
     <div>
       <Navbar />
       <Home />
+      <Yangiliklar/>
       <Mahsulotlar />
-      <Footer />
+      <Footer/>
     </div>
   );
 }
