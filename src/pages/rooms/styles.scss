@@ -1,0 +1,90 @@
+.rooms {
+  width: 100%;
+  background: white;
+}
+
+.yozuv1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.yozuv2 {
+  font-size: 100px;
+}
+
+.yozuv3 {
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+.rasmlar {
+  display: flex;
+  position: relative;
+}
+
+.rasm {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  display: block;
+}
+
+.rasm1 {
+  position: absolute;
+  top: 300px;
+  left: 1%;
+}
+
+.yozuv4 {
+  position: absolute;
+  top: 800px;
+  left: 10%;
+}
+@media (max-width: 767px) {
+  .yozuv1 {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yozuv2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .yozuv3 {
+    font-size: 14px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .rasmlar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rasm {
+    position: relative;
+    left: auto;
+    top: 20px;
+    display: none;
+  }
+
+  .rasm1 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 90%;
+  }
+
+  .yozuv4 {
+    position: relative;
+    top: 380px;
+    font-size: 18px;
+    text-align: center;
+    width: 90%;
+    left: auto;
+    left: 22px;
+  }
+}

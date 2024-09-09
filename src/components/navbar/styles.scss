@@ -3,27 +3,34 @@ nav {
   justify-content: space-between;
   padding: 30px;
   align-items: center;
-  height: 80px;
-  background-color: #f1f08a;
+  background-color: #313f38;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000;
   transition: 1s;
-  img {
-    height: 60px;
-    width: 60px;
-    translate: 0 -5px;
+  .logo {
+    a {
+      text-decoration: none;
+      font-size: 23px;
+      color: white;
+    }
   }
   .links {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
     a {
       text-decoration: none;
-      color: #1e1e1e;
+      color: white;
     }
+  }
+  .menu-btn {
+    position: fixed;
+    top: 10px;
+    left: 270px;
+    display: none;
   }
   button {
     padding: 10px 30px;
@@ -32,18 +39,6 @@ nav {
     border: none;
     background-color: #000;
     color: #fff;
-  }
-  button:hover {
-    background-color: rgb(208, 29, 29);
-    transform: 1s;
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
-  }
-  .menu-btn {
-    position: fixed;
-    top: 10px;
-    left: 290px;
-    display: none;
   }
 }
 
@@ -57,5 +52,14 @@ nav {
     .menu-btn {
       display: block;
     }
+    .links {
+      font-size: 17px;
+      width: 90%;
+      gap: 14px;
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+    }
   }
 }
+

@@ -1,0 +1,128 @@
+/* Asosiy dizayn kodlaringiz */
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.text3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.text5 {
+  position: absolute;
+  top: 30px;
+  color: yellow;
+  display: block;
+}
+
+.text6 {
+  position: absolute;
+  top: 30px;
+  left: 89%;
+  color: white;
+  display: block;
+}
+
+.foto {
+  display: flex;
+  position: relative;
+}
+.foto23 {
+  display: block;
+}
+.yozuv {
+  position: absolute;
+  left: 680px;
+  top: 630px;
+  display: block;
+  color: white;
+}
+
+.foto3 {
+  position: absolute;
+  left: 78%;
+  height: 400px;
+}
+
+.text10 {
+  position: absolute;
+  left: 680px;
+  top: 300px;
+  font-size: 100px;
+}
+
+.text7 {
+  color: yellow;
+}
+
+.text8 {
+  color: dark;
+}
+
+@media (max-width: 767px) {
+  .text3 {
+    padding: 5px 15px;
+    flex-direction: column;
+  }
+
+  .text5 {
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 14px;
+    display: none;
+  }
+
+  .text6 {
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 14px;
+    display: none;
+  }
+
+  .foto {
+    flex-direction: column;
+  }
+  .foto23 {
+    display: none;
+  }
+
+  .yozuv {
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 18px;
+    display: none;
+  }
+
+  .foto3 {
+    position: relative;
+    left: auto;
+    height: 200px;
+    top: -50px;
+  }
+
+  .text10 {
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 36px;
+  }
+
+  .text7 {
+    font-size: 80px;
+    position: absolute;
+    top: -290px;
+    left: 10%;
+  }
+
+  .text8 {
+    font-size: 80px;
+    position: absolute;
+    top: -210px;
+    left: 40%;
+  }
+}

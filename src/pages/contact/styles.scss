@@ -1,0 +1,62 @@
+.contacts {
+  width: 100%;
+  .text77 {
+    font-size: 30px;
+    padding: 50px 20px;
+  }
+  .text71 {
+    position: relative;
+  }
+  .text900 {
+    position: absolute;
+    font-size: 70px;
+    top: 200px;
+  }
+  .foto92 {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+  }
+  .foto94 {
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+  }
+  .text221 {
+    position: absolute;
+    top: 610px;
+    left: 1070px;
+    font-size: 80px;
+    color: yellow;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contacts {
+    width: 100%;
+    .text71 {
+      position: relative;
+    }
+    .text900 {
+      position: absolute;
+      font-size: 70px;
+      top: 40px;
+    }
+    .foto92 {
+      position: absolute;
+      left: 190px;
+      top: 240px;
+    }
+    .foto94 {
+      position: absolute;
+      left: 0px;
+      top: 450px;
+      width: 101%;
+    }
+    .text221 {
+      position: absolute;
+      left: 30px;
+      top: 890px;
+    }
+  }
+}

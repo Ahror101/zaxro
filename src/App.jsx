@@ -2,10 +2,13 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/navbar";
-import Footer from "./pages/footer";
 import Home from "./pages/home";
-import Mahsulotlar from "./pages/mahsulotlar";
-import Yangiliklar from "./pages/yangiliklar";
+import About from "./pages/about";
+import Rooms from "./pages/rooms";
+import Restarand from "./pages/restarand";
+import Holl from "./pages/holl";
+import Contact from "./pages/contact";
+import Footer from "./pages/footer";
 
 function App() {
   useEffect(() => {
@@ -15,9 +18,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <Yangiliklar/>
-      <Mahsulotlar />
+      <Home/>
+      <About/>
+      <Rooms/>
+      <Restarand/>
+      <Holl/>
+      <Contact/>
       <Footer/>
     </div>
   );

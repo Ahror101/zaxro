@@ -1,0 +1,112 @@
+.holl {
+  width: 100%;
+  background: #313f38;
+  height: 180vh;
+}
+
+.img10 {
+  position: relative;
+}
+
+.foto10 {
+  position: absolute;
+  top: 20px;
+  left: 45%;
+}
+
+.text20 {
+  position: absolute;
+  left: 27%;
+  top: 120px;
+  font-size: 100px;
+  color: yellow;
+  padding-top: 10px;
+}
+
+.text21 {
+  position: absolute;
+  left: 37%;
+  top: 240px;
+  color: white;
+}
+
+.foto11 {
+  position: absolute;
+  top: 180px;
+}
+
+.foto12 {
+  position: absolute;
+  left: 1234px;
+  top: 180px;
+}
+
+.foto15 {
+  position: absolute;
+  left: 1076px;
+  top: 950px;
+}
+
+.foto14 {
+  position: absolute;
+  left: 10px;
+  top: 860px;
+}
+
+.foto13 {
+  position: absolute;
+  left: 316px;
+  top: 330px;
+}
+@media only screen and (max-width: 600px) {
+  .text20 {
+    font-size: 40px;
+    left: 10%;
+    top: 130px;
+  }
+
+  .text21 {
+    left: 3%;
+    top: 190px;
+    text-align: center;
+  }
+
+  .foto10 {
+    position: relative;
+    width: 30%;
+    left: 35%;
+  }
+
+  .foto11 {
+    position: absolute;
+    top: 700px;
+    left: 10%;
+    display: none;
+  }
+
+  .foto12 {
+    position: absolute;
+    top: 325px;
+    left: 12%;
+  }
+
+  .foto13 {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    display: none;
+  }
+
+  .foto14 {
+    position: absolute;
+    top: 1000px;
+    left: 14%;
+  }
+
+  .foto15 {
+    position: absolute;
+    top: 730px;
+    left: 0;
+    width: 390px;
+  }
+}

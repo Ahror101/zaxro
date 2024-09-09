@@ -1,20 +1,12 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
-
-
+@import url("https://fonts.googleapis.com/css2?family=Nanum + Myeongjo:wght@400;700;800&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: "Baskervville SC", serif;
   font-optical-sizing: auto;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-body {
-  background-color: #C6CD78;
-}
-
-

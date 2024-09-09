@@ -21,15 +21,42 @@ export default function Navbar() {
 
   return (
     <nav ref={nav}>
-      <a onClick={toggleMenu} href="#">
-        <img src={require("../../assets/logo.png")} />
-      </a>
-      <div className="links">
-        <a onClick={toggleMenu} href="#yangiliklar">Yangiliklar</a>
-        <a onClick={toggleMenu} href="#mahsulotlar">Mahsulotlar</a>
-        <a onClick={toggleMenu} href="#biz-haqimizda">Biz haqimida</a>
+      <div className="logo">
+        <a href="#" onClick={toggleMenu}>
+          Bank Hotel
+        </a>
       </div>
-      <button>+998883390355</button>
+      <div
+        className={`hamburger ${isOpen ? "active" : ""}`}
+        onClick={toggleMenu}
+      >
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+      <div className={`links ${isOpen ? "open" : ""}`}>
+        <a onClick={toggleMenu} href="#home">
+          Home
+        </a>
+        <a onClick={toggleMenu} href="#about">
+          About
+        </a>
+        <a onClick={toggleMenu} href="#rooms">
+          Rooms
+        </a>
+        <a onClick={toggleMenu} href="#restaurant">
+          Restaurant
+        </a>
+        <a onClick={toggleMenu} href="#conference_hall">
+          Conference hall
+        </a>
+        <a onClick={toggleMenu} href="#contacts">
+          Contacts
+        </a>
+        <a onClick={toggleMenu} href="#footer">
+          Footer
+        </a>
+      </div>
       <button onClick={toggleMenu} className="menu-btn">
         menu
       </button>

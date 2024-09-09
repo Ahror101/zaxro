@@ -1,137 +1,17 @@
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 40px 0;
-
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    .footer-section {
-      flex: 1;
-      padding: 20px;
-
-      h2,
-      h4 {
-        margin-bottom: 15px;
-      }
-
-      p {
-        line-height: 1.6;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-
-        li {
-          margin-bottom: 10px;
-
-          a {
-            color: #fff;
-            text-decoration: none;
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-        }
-      }
-
-      .footer-icons {
-        display: flex;
-        gap: 10px;
-
-        .icon {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          color: #fff;
-          font-size: 24px;
-          text-decoration: none;
-          transition: background-color 0.3s, color 0.3s;
-
-          &:hover {
-            opacity: 0.8;
-          }
-        }
-
-        .facebook {
-          background-color: #3b5998;
-        }
-
-        .twitter {
-          background-color: #1da1f2;
-        }
-
-        .instagram {
-          background-color: #c32aa3;
-        }
-      }
-
-      .contact-form {
-        form {
-          display: flex;
-          flex-direction: column;
-
-          input,
-          textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-          }
-
-          textarea {
-            resize: vertical;
-          }
-
-          button {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #1da1f2;
-            color: #fff;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-
-            &:hover {
-              background-color: #0d8bf2;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .footer-bottom {
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #444;
-
-    p {
-      margin: 0;
-    }
-  }
+.foter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 800px;
 }
-
 @media screen and (max-width: 480px) {
-  .container {
-    width: 50%;
-    .footer-content {
-      display: flex;
-      flex-direction: column;
-      width: 380px;
-      margin-left: 100px;
-      padding: 0px;
-    }
+  .foter {
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding-left: 80px;
+    padding-top: 1000px;
   }
 }
